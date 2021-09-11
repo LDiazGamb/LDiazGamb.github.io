@@ -178,8 +178,11 @@ li {
 	font-family:Verdana,sans-serif;
 	font-size:14px;
 	color:#FFFFFF;
-	font-weight:normal;
+	font-weight:bold;
 	font-style:normal;
+	font-variant:small-caps;
+	text-transform:none;
+	text-decoration:none;
 	text-align:center;
 	margin:0px;
 	padding:0px;
