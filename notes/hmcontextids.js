@@ -12,6 +12,10 @@ function hmGetContextId(query) {
     else return "";
 }
 
+hmContextIds["1021"]="control-flow-statements-and-lo.html";
+hmContextIds["1022"]="object-oriented-programming-ba.html";
+hmContextIds["1023"]="final-project-and-assessment-i.html";
+hmContextIds["1024"]="learning-points.html";
 hmContextIds["1020"]="getting-started-with-java.html";
 hmContextIds["1026"]="classes.html";
 hmContextIds["1027"]="objects.html";
@@ -24,4 +28,8 @@ hmContextIds["1036"]="string.html";
 hmContextIds["1037"]="string-index.html";
 hmContextIds["1038"]="the-charat-method.html";
 hmContextIds["1039"]="the-length-method.html";
+hmContextIds["1040"]="concatenation.html";
+hmContextIds["1041"]="text-case.html";
 hmContextIds["1034"]="reference.html";
+hmContextIds["1035"]="array.html";
+hmContextIds["1031"]="data-structures.html";
