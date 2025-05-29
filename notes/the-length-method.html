@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-   <title>AMAZON JUNIOR SOFTWARE DEVELOPER &gt; INTRODUCTION TO SOFTWARE DEVELOPMENT &gt; FINAL PROJECT AND ASSESSMENT</title>
+   <title>AMAZON JUNIOR SOFTWARE DEVELOPER &gt; INTRODUCTION TO SOFTWARE DEVELOPMENT &gt; GETTING STARTED WITH JAVA &gt; DATA TYPES &gt; PRIMITIVE TYPES &gt; THE length() METHOD</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />   
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="generator" content="Help &amp; Manual" />
    <meta name="keywords" content="" />
-   <meta name="description" content="" />
+   <meta name="description" content="Returns the integer representing the number of characters contained in a string. For example:" />
    <link type="text/css" href="default.css" rel="stylesheet" />
    <link type="text/css" href="custom.css" rel="stylesheet" />
 
@@ -85,7 +85,7 @@
    <script type="text/javascript" src="helpman_topicinit.js"></script>
 
    <script type="text/javascript">
-     HMSyncTOC("index.html", "final-project-and-assessment-i.html");
+     HMSyncTOC("index.html", "the-length-method.html");
    </script>
    <script type="text/javascript" src="highlight.js"></script>
    <script type="text/javascript">
@@ -95,26 +95,26 @@
 <body>
 
 
-<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">FINAL PROJECT AND ASSESSMENT</span></h1>
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">THE length() METHOD</span></h1>
 </div>
 <div id="idheader">
 <div id="idheaderbg">
 <table style="width:100%;border:none;margin:0px;" cellspacing="0" cellpadding="0"> 
   <tr>
     <td class="topichead" style="text-align:left; vertical-align:middle">
-      <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="index.html?final-project-and-assessment-i.html" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+      <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="index.html?the-length-method.html" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
       <p class="crumbs"><b>Navigation:</b>&nbsp;
       
-      AMAZON JUNIOR SOFTWARE DEVELOPER &gt; INTRODUCTION TO SOFTWARE DEVELOPMENT&nbsp;&gt;</p>
+      AMAZON JUNIOR SOFTWARE DEVELOPER &gt; INTRODUCTION TO SOFTWARE DEVELOPMENT &gt; <a href="getting-started-with-java.html">GETTING STARTED WITH JAVA</a> &gt; DATA TYPES &gt; <a href="primitive.html">PRIMITIVE TYPES</a>&nbsp;&gt;</p>
    
-      <h1 class="p_Heading1"><span class="f_Heading1">FINAL PROJECT AND ASSESSMENT</span></h1>
+      <h1 class="p_Heading1"><span class="f_Heading1">THE length() METHOD</span></h1>
 
     </td>
     <td class="topichead" id="idnav">
       
-      <a href="object-oriented-programming-ba.html" title="Previous Topic"><span class="hmbtnprev"></span></a>
-      <a href="getting-started-with-java.html" title="Parent Chapter"><span class="hmbtntop"></span></a>
-      <a href="learning-points.html" title="Next Topic"><span class="hmbtnnext"></span></a>
+      <a href="the-charat-method.html" title="Previous Topic"><span class="hmbtnprev"></span></a>
+      <a href="primitive.html" title="Parent Chapter"><span class="hmbtntop"></span></a>
+      <a href="reference.html" title="Next Topic"><span class="hmbtnnext"></span></a>
       
     </td>
   </tr>  
@@ -127,7 +127,18 @@
 <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
 
 <!--ZOOMRESTART-->
-<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Returns the integer representing the number of characters contained in a string. For example:</p>
+<p class="p_CodeExample" style="page-break-inside: avoid;"><span class="f_CodeExample" style="font-weight: bold;">public</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="font-weight: bold;">class</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">nameLength</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">{</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="font-weight: bold;">public</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="font-weight: bold;">static</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="font-weight: bold;">void</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">main</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">(</span><span class="f_CodeExample" style="color: #800080;">String</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">[]</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">args</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">){</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="color: #800080;">String</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">name</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">=</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #0000ff;">&quot;Leonardo&quot;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">;</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="font-weight: bold;">int</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">myNameLength</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">=</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">name</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">.</span><span class="f_CodeExample" style="color: #800080;">length</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">();</span><br />
+<span class="f_CodeExample" style="font-weight: bold; color: #333399;">&nbsp;</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="color: #800080;">System</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">.</span><span class="f_CodeExample" style="color: #800080;">out</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">.</span><span class="f_CodeExample" style="color: #800080;">println</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">(</span><span class="f_CodeExample" style="color: #0000ff;">&quot;My&nbsp;name&nbsp;has:&nbsp;&quot;</span><span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">+</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #800080;">myNameLength</span><span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">+</span><span class="f_CodeExample">&nbsp;</span><span class="f_CodeExample" style="color: #0000ff;">&quot;&nbsp;characters&quot;</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">);</span><br />
+<span class="f_CodeExample">&nbsp;&nbsp;&nbsp;</span><span class="f_CodeExample" style="font-weight: bold; color: #333399;">}</span><br />
+<span class="f_CodeExample" style="font-weight: bold; color: #333399;">}</span></p>
 
 <!--ZOOMSTOP-->
 </div></div>
