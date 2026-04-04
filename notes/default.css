@@ -11,7 +11,7 @@ body, table, tr, th /* Normal */
 }
 span.f_CodeExample /* Code Example */
 {
- font-size: 16px;
+ font-size: 13px;
  font-family: 'Monospac821 BT';
 }
 span.f_Comment /* Comment */
@@ -76,11 +76,10 @@ p, p.p_Normal, div.p_Normal, li.p_Normal /* Normal */
 }
 .p_CodeExample /* Code Example */
 {
- font-size: 16px;
+ font-size: 13px;
  text-align: left;
  line-height: 1.20;
  white-space: nowrap;
- page-break-inside: avoid;
  border-color: #ffffff;
  border-style: solid;
  border-width: thin;
